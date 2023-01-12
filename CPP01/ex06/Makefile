@@ -9,7 +9,7 @@ CFLAGS = -Wall -Werror -Wextra -std=c++98
 SRC = main.cpp Harl.cpp
 OBJ = $(SRC:.cpp=.o)
 
-NAME = harl
+NAME = harlFilter
 
 all: $(NAME)
 
